@@ -53,8 +53,8 @@ sudo chmod 666 /dev/my_cuse_device
 # Replace 509 with the actually number found in dmesg | tail
 
 # Check and see if the kernel module responds to workloads or a simple echo "hello world" etc.
-echo "Hello Kernel" > /dev/my_cuse_device
-cat /dev/my_cuse_device
+``` echo "Hello Kernel" > /dev/my_cuse_device```
+```cat /dev/my_cuse_device```
 
 Expected output
 ```Hello Kernel```
