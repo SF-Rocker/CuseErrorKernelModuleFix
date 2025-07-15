@@ -1,5 +1,5 @@
 # CuseErrorKernelModuleFix
-Implements the module to load and help the Major Number Errors that Steam throws out you on Game Crashes, hopefully.
+Implements the module to load and help the Major Number Errors that Steam throws at you on Game Crashes, hopefully.
 ``` dmesg | tail```
 # To see whats going wrong.
 
