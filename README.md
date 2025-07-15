@@ -13,9 +13,10 @@ Helps the Text Blocks.
 
 A simple Linux character device module that dynamically allocates a major number and responds to open, read, and write calls. This module creates a /dev/my_cuse_device file that allows user-space applications to exchange text with kernel space through a fixed-size buffer.
 # Folder Contents
-Kernel/
-├── my_module.c       # Kernel module source code
-├── Makefile          # Kernel build Makefile
+
+Kernel
+├── my_module.c        Kernel module source code
+├── Makefile           Kernel build Makefile
 ---------------------------------------------------------------------
 # 🛠️ Requirements
 
