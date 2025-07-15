@@ -15,8 +15,8 @@ A simple Linux character device module that dynamically allocates a major number
 # Folder Contents
 
 Kernel
-├── my_module.c        Kernel module source code
-├── Makefile           Kernel build Makefile
+my_module.c        Kernel module source code
+Makefile           Kernel build Makefile
 ---------------------------------------------------------------------
 # 🛠️ Requirements
 
