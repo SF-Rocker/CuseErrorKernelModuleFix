@@ -4,7 +4,7 @@ Implements the module to load and help the Major Number Errors that Steam throws
 # To see whats going wrong.
 
 ```dmesg```
-#Shows all processes going right or wrong.
+# Shows all processes going right or wrong.
 
 Helps the Text Blocks. 
 
