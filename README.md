@@ -1,9 +1,9 @@
 # CuseErrorKernelModuleFix
-Implements the module to load and help the Major 509 Errors that Steam throws out you on Game Crashes, hopefully.
-``` Dmesg | tail```
+Implements the module to load and help the Major Number Errors that Steam throws out you on Game Crashes, hopefully.
+``` dmesg | tail```
 # To see whats going wrong.
 
-```Dmesg```
+```dmesg```
 #Shows all processes going right or wrong.
 
 Helps the Text Blocks. 
