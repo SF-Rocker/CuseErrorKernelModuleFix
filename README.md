@@ -70,7 +70,8 @@ dmesg | tail
 
 #🔄 Unload the Module
 
-```sudo rmmod my_module```
+```sudo rmmod my_module``` # Creates the .ko file to use afterward.
+
 ```sudo insmod my_module.ko```
 
 # you should see somehting like  
