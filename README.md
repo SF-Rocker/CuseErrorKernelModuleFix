@@ -74,7 +74,7 @@ dmesg | tail
 
 ```sudo insmod my_module.ko```
 
-# you should see somehting like  
+# you should see something like  
 ```[ 7552.781413] Allocated Major: 509, Minor: 0```
 
 # To check cleanup:
