@@ -50,8 +50,8 @@ dmesg | grep "Allocated Major"
 
 Supposed to show a number like 509
 ``` Allocated Major: 509, Minor: 0```
-sudo mknod /dev/my_cuse_device c 509 0
-sudo chmod 666 /dev/my_cuse_device
+```sudo mknod /dev/my_cuse_device c 509 0```
+```sudo chmod 666 /dev/my_cuse_device```
 # Replace 509 with the actually number found in dmesg | tail
 
 # Check and see if the kernel module responds to workloads or a simple echo "hello world" etc.
@@ -71,6 +71,10 @@ dmesg | tail
 #🔄 Unload the Module
 
 ```sudo rmmod my_module```
+```sudo insmod my_module.ko```
+
+# you should see somehting like  
+```[ 7552.781413] Allocated Major: 509, Minor: 0```
 
 # To check cleanup:
 
